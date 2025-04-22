@@ -1,54 +1,22 @@
-### Aula 00
-
-**Guia Básico de Python para Iniciantes**
+### Aula 00 - Guia Básico de Python para Iniciantes
+Guia Básico de Python para Iniciantes
 Python é uma linguagem de programação de alto nível, interpretada e de propósito geral, conhecida por sua sintaxe clara e legível. É uma ótima escolha para iniciantes e é amplamente utilizada em desenvolvimento web, ciência de dados, inteligência artificial, automação e muito mais.   
 
 ### 1. O Que é Python?
 - Linguagem popular e versátil.
 - Foco na legibilidade do código (menos "sintaxe barulhenta").
 - Grande comunidade e vasta biblioteca padrão.
-- Funciona em diferentes sistemas operacionais (Windows, macOS, Linux).
+Funciona em diferentes sistemas operacionais (Windows, macOS, Linux).
 
 ### 2. Primeiros Passos: Instalação ou Ambiente Online
 Para rodar Python, você precisa de um interpretador. Você pode:
-
-- Instalar Python: Baixe o instalador oficial do site python.org. Certifique-se de marcar a opção "Add Python to PATH" durante a instalação no Windows.
-- Usar um Ambiente Online: Sites como Replit, Google Colab ou OnlineGDB permitem escrever e executar código Python diretamente no navegador, sem instalação.
+- Instalar Python: Baixe o instalador oficial do site python.org. Certifique-se de marcar a opção **"Add Python to PATH"** durante a instalação no Windows.
+- Usar um Ambiente Online: Sites como **Replit**, **Google Colab** ou **OnlineGDB** permitem escrever e executar código Python diretamente no navegador, sem instalação.
 
 ### 3. Sintaxe Básica: Indentação
-Diferente de muitas outras linguagens que usam chaves {} para definir blocos de código, Python usa indentação (espaços em branco no início da linha). Isso força um código mais organizado. Geralmente, usa-se 4 espaços para cada nível de indentação.
-
-```python
-# Exemplo de indentação
-if True:
-    print("Este código está dentro do if")
-    print("Ele está identado com 4 espaços")
-print("Este código está fora do if")
-```
-
-Okay, excelente ideia! Vamos começar com um guia básico do Python, cobrindo os fundamentos essenciais. Depois, podemos mergulhar em tópicos específicos, um de cada vez, com explicações mais detalhadas e exercícios de lógica para praticar.
-
-Guia Básico de Python para Iniciantes
-Python é uma linguagem de programação de alto nível, interpretada e de propósito geral, conhecida por sua sintaxe clara e legível. É uma ótima escolha para iniciantes e é amplamente utilizada em desenvolvimento web, ciência de dados, inteligência artificial, automação e muito mais.   
-
-1. O Que é Python?
-
-Linguagem popular e versátil.
-Foco na legibilidade do código (menos "sintaxe barulhenta").
-Grande comunidade e vasta biblioteca padrão.
-Funciona em diferentes sistemas operacionais (Windows, macOS, Linux).
-2. Primeiros Passos: Instalação ou Ambiente Online
-
-Para rodar Python, você precisa de um interpretador. Você pode:
-
-Instalar Python: Baixe o instalador oficial do site python.org. Certifique-se de marcar a opção "Add Python to PATH" durante a instalação no Windows.
-Usar um Ambiente Online: Sites como Replit, Google Colab ou OnlineGDB permitem escrever e executar código Python diretamente no navegador, sem instalação.
-3. Sintaxe Básica: Indentação
-
-Diferente de muitas outras linguagens que usam chaves {} para definir blocos de código, Python usa indentação (espaços em branco no início da linha). Isso força um código mais organizado. Geralmente, usa-se 4 espaços para cada nível de indentação.
+Diferente de muitas outras linguagens que usam chaves `{}` para definir blocos de código, Python usa indentação (espaços em branco no início da linha). Isso força um código mais organizado. Geralmente, usa-se 4 espaços para cada nível de indentação.
 
 ### 4. Variáveis e Tipos de Dados
-
 Variáveis são usadas para armazenar dados. Você não precisa declarar o tipo de variável; Python infere o tipo automaticamente.
 
 Principais Tipos de Dados:
@@ -63,7 +31,7 @@ Principais Tipos de Dados:
 - `set`: Conjuntos (coleções não ordenadas e únicas) (ex: `{1, 2, 3}`)
 
 ```python
-nome = "Carlos"   # str
+nome = "Python"   # str
 idade = 25        # int
 altura = 1.75     # float
 tem_carro = False # bool
@@ -71,7 +39,6 @@ numeros = [1, 2, 3, 4] # list
 ```
 
 ### 5. Entrada e Saída (I/O)
-
 `print()`: Exibe informações na tela.
 `input()`: Permite que o usuário insira dados. A entrada é sempre lida como `str` (string), então pode precisar converter para outros tipos (usando `int()`, `float()`, etc.).
 
@@ -87,7 +54,6 @@ print("Você tem", idade, "anos.")
 ```
 
 ### 6. Operadores
-
 **Aritméticos:** 
 `+` Adição:
 `-` Subtração
@@ -171,12 +137,12 @@ resultado = somar(5, 3)
 print(resultado) # 8
 ```
 
-9. Comentários
+### 9. Comentários
 Usados para explicar o código. Linhas que começam com `#` são ignoradas pelo interpretador. Comentários de várias linhas podem ser feitos com `"""` `"""` (frequentemente usados como docstrings para funções, classes, etc.).
 
+```python
 # Este é um comentário de uma linha
 
-```python
 """
 Este é um comentário
 de várias linhas.
